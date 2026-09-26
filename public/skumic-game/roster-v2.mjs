@@ -70,6 +70,7 @@ export const FIGHTERS = Object.freeze({
     artFacing: -1,
     portrait: "assets/gauthier-portrait-v2.png?v=7",
     atlas: "assets/gauthier-atlas-v2.png?v=7",
+    frameOverrides: { 2: "assets/gauthier-punch-v3.png?v=1" },
     stats: SHARED_STATS,
     moves: {
       ...basics(),
@@ -106,7 +107,7 @@ export const STAGES = Object.freeze({
 
 export const STAGE = Object.freeze({
   groundY: 246,
-  bounds: { left: 30, right: 450 },
+  bounds: { left: 64, right: 416 },
 });
 
 export const INPUT_LABELS = Object.freeze({
